@@ -163,6 +163,8 @@
           margin-bottom: 40px;
           &:hover {
             .lmao {
+              z-index: 10;
+              width: 300px;
               left: 0;
               position: relative;
               margin-top: 0;

@@ -58,7 +58,7 @@
     }
   }
   .lowerFoot {
-    font-size: 30px;
+    font-size:30px;
     .social {
       background-color: #111118;
       display: flex;
@@ -97,7 +97,7 @@
       }
     }
     .lowFoot {
-      font-size: 30px;
+      font-size: 25px;
       .foot {
         flex-direction: column;
         align-items: center;
@@ -128,6 +128,14 @@
         font-size: 25px;
         .work{
           font-size: 45px;
+        }
+      }
+    }
+    .lowFoot{
+      font-size: 25px;
+      .foot{
+        li{
+          font-size: 20px;
         }
       }
     }

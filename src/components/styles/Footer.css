@@ -128,7 +128,7 @@
     width: 100%;
   }
   .footer .lowFoot {
-    font-size: 30px;
+    font-size: 25px;
   }
   .footer .lowFoot .foot {
     -webkit-box-orient: vertical;
@@ -165,6 +165,12 @@
   }
   .footer .upper .left .work {
     font-size: 45px;
+  }
+  .footer .lowFoot {
+    font-size: 25px;
+  }
+  .footer .lowFoot .foot li {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=Footer.css.map */

@@ -378,15 +378,6 @@
 }
 @media only screen and (max-width: 1434px) {
   .main {
-    // .leftintro {
-    //   // top: -2%;
-    //   // h2 {
-    //   //   font-size: 40px;
-    //   // }
-    //   // p {
-    //   //   font-size: 20px;
-    //   // }
-    // }
     .article {
       padding: 10px 30px;
       .container {
@@ -491,13 +482,17 @@
       padding: 20px;
       h2 {
         font-size: 25px;
+        margin-bottom: 10px;
       }
       p {
         font-size: 20px;
+        // margin-bottom: 15px;
       }
       .special {
         width: 100%;
         button {
+          padding: 10px 20px;
+          border-radius: 15px;
           // height: 70px;
           font-size: 20px;
           // width: 250px;
@@ -506,7 +501,7 @@
           width: 80%;
           justify-content: center;
           margin: auto;
-          margin-bottom: 30px;
+          margin-bottom: 10px;
           &:hover {
             border: #ff6900 3px solid;
           }
@@ -517,8 +512,23 @@
       }
     }
     .article {
+      .container{
+        padding: 0;
+        video{
+          height: 300px;
+        }
+      }
+      .far{
+        padding: 10px 12px;
+      }
       .fintech {
-        padding: 10px 20px;
+        h3{
+          padding:10px 5px;
+        }
+        p{
+          padding:10px 5px;
+        }
+        padding: 10px 5px;
         .payment {
           div {
             padding: 10px;
@@ -540,10 +550,14 @@
           padding: 10px;
           .contain {
             .text {
-              padding: 10px;
-              font-size: 20px;
+              padding: 30px;
+              font-size: 18px;
+              .head{
+                font-size: 35px;
+              }
               .learnMore {
                 padding: 20px 30px;
+                // margin-left: 20px;
               }
             }
           }

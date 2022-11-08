@@ -43,11 +43,12 @@
   width: 100%;
   background-color: black;
   text-align: center;
+  min-height: 50vh;
 }
 
 .section .lowerSection .container .imgContainer img {
   width: 100%;
-  height: inherit;
+  min-height: inherit;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -109,7 +110,7 @@
 
 @media only screen and (max-width: 654px) {
   .section .lowerSection {
-    padding: 10px;
+    padding: 10px 0px;
   }
   .section .lowerSection .container {
     padding: 10px;
