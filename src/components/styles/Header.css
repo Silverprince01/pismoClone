@@ -190,6 +190,7 @@
     left: 0;
     position: relative;
     margin-top: 0;
+    background-color: transparent;
   }
   .header nav ul li:hover .lmao li {
     margin: 10px 0;

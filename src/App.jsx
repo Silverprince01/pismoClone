@@ -130,10 +130,10 @@ const App = () => {
           )}
 
           <div className="accept">
-            <button>Accept All </button>
+            <button onClick={handleClick}>Accept All </button>
             <div className="save">
-              <button className="save"> Save Settings</button>
-              <button className="deny"> Deny</button>
+              <button className="save" onClick={handleClick}> Save Settings</button>
+              <button className="deny" onClick={handleClick}> Deny</button>
             </div>
           </div>
         </div>
