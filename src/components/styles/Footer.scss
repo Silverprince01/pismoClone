@@ -1,0 +1,135 @@
+.footer {
+  position: relative;
+  width: 100%;
+  .upper {
+    padding: 20px;
+    background-color: #525061;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+      font-size: 35px;
+      color: #bcbac8;
+      width: 50%;
+      p {
+        margin-bottom: 20px;
+      }
+      .work {
+        font-size: 65px;
+      }
+      button {
+        padding: 30px 40px;
+        border-radius: 15px;
+        background-color: #ff6900;
+        border: none;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #bcbac8;
+      }
+    }
+    .pictures {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .lowFoot {
+    background-color: #16161e;
+    // color: white;
+    color: #bcbac8;
+    font-size: 30px;
+    .foot {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 40px 0;
+
+      li {
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-weight: lighter;
+        cursor: pointer;
+        list-style: none;
+        color: white;
+      }
+      li:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .lowerFoot {
+    font-size: 30px;
+    .social {
+      background-color: #111118;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      padding: 30px;
+      img {
+        margin-left: 50px;
+        width: 90px;
+        height: 90px;
+      }
+    }
+    .privacy {
+      background-color: #000000;
+      color: #bcbac8;
+      padding: 30px;
+      text-align: center;
+    }
+  }
+}
+@media only screen and (max-width: 1486px) {
+  .footer {
+    .upper {
+      flex-direction: column;
+      padding: 80px;
+      .left {
+        width: 100%;
+        margin-bottom: 50px;
+        button {
+          padding: 20px 30px;
+          font-size: 25px;
+        }
+      }
+      .pictures {
+        width: 100%;
+      }
+    }
+    .lowFoot {
+      font-size: 30px;
+      .foot {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        li{
+          font-size: 22px;
+        }
+      }
+    }
+    .lowerFoot {
+      font-size: 22px;
+      .social {
+        img {
+          margin-left: 30px;
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 698px) {
+  .footer{
+    .upper{
+      padding: 20px;
+      .left{
+        font-size: 25px;
+        .work{
+          font-size: 45px;
+        }
+      }
+    }
+  }
+}

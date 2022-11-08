@@ -1,0 +1,202 @@
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 4;
+  top: 0;
+}
+
+.header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 20px;
+  background-color: white;
+  width: 100%;
+  left: 0;
+}
+
+.header nav img {
+  width: 15%;
+}
+
+.header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.header nav ul li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 35px;
+  color: #837f7f;
+  cursor: pointer;
+}
+
+.header nav ul li .lmao {
+  display: none;
+}
+
+.header nav ul li:hover {
+  border-bottom: #ff6900 solid 13px;
+  color: black;
+}
+
+.header nav ul li:hover .lmao {
+  width: 400px;
+  position: absolute;
+  top: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  min-height: 150px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 55px;
+}
+
+.header nav ul li:hover .lmao li {
+  height: 0;
+  border-bottom: none;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 10px 0;
+  padding: 40px;
+}
+
+.header nav ul li:hover button {
+  border: none;
+}
+
+.header nav ul li button {
+  width: 173px;
+  height: 65px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  background-color: #ff6900;
+  color: white;
+}
+
+@media only screen and (max-width: 1713px) {
+  .header nav ul li {
+    font-size: 30px;
+  }
+  .header nav ul li button {
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 1378px) {
+  .header nav ul li {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1211px) {
+  .header nav ul li {
+    font-size: 20px;
+  }
+  .header nav ul li button {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 888px) {
+  .header nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 15px;
+    z-index: 8;
+  }
+  .header nav .hamburger {
+    display: block;
+  }
+  .header nav .hamburger.active .bar:nth-child(2) {
+    position: fixed;
+    left: -100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .header nav .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(5px) rotate(45deg);
+            transform: translateY(5px) rotate(45deg);
+  }
+  .header nav .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-5px) rotate(-45deg);
+            transform: translateY(-5px) rotate(-45deg);
+  }
+  .header nav .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ff6900;
+  }
+  .header nav ul {
+    position: absolute;
+    left: -200%;
+    top: 48px;
+    color: white;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+    z-index: 1;
+    font-size: 20px;
+    text-align: left;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    color: #027afd;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .header nav ul li {
+    margin-bottom: 40px;
+  }
+  .header nav ul li:hover {
+    border-bottom: none;
+  }
+  .header nav ul li:hover .lmao {
+    left: 0;
+    position: relative;
+    margin-top: 0;
+  }
+  .header nav ul li:hover .lmao li {
+    margin: 10px 0;
+    padding: 20px;
+  }
+  .header nav ul.active {
+    left: 0;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

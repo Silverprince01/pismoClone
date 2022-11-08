@@ -1,0 +1,118 @@
+.section {
+  padding: 30px 80px;
+  background-color: aliceblue;
+}
+
+.section .dash {
+  background-color: #bcbac8;
+  width: 200px;
+  height: 10px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.section .lowerSection {
+  width: 100%;
+  padding: 20px 70px;
+}
+
+.section .lowerSection .lowerText {
+  text-align: center;
+  font-size: 70px;
+}
+
+.section .lowerSection .container {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 3rem;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  padding: 30px;
+}
+
+.section .lowerSection .container .imgContainer {
+  color: white;
+  position: relative;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+.section .lowerSection .container .imgContainer img {
+  width: 100%;
+  height: inherit;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  opacity: 0.6;
+}
+
+.section .lowerSection .container .imgContainer .text {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  border: white;
+  width: 200px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid white;
+  border-radius: 30px;
+}
+
+.section .lowerSection .container .imgContainer .lowerText {
+  position: absolute;
+  bottom: 10%;
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1410px) {
+  .section {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 1210px) {
+  .section {
+    padding: 10px;
+  }
+  .section .lowerSection {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 998px) {
+  .section .lowerSection .lowerText {
+    font-size: 60px;
+  }
+  .section .lowerSection .container {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+}
+
+@media only screen and (max-width: 654px) {
+  .section .lowerSection {
+    padding: 10px;
+  }
+  .section .lowerSection .container {
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=Section.css.map */

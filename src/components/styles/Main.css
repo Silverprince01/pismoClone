@@ -1,0 +1,616 @@
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.main .intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 70vh;
+}
+
+.main .intro .background {
+  background-color: aliceblue;
+  width: 45%;
+  height: inherit;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.main .intro .people {
+  width: 60%;
+  height: inherit;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.main .leftintro {
+  position: absolute;
+  z-index: 1;
+  width: 50%;
+  top: 0;
+  margin-top: 100px;
+  padding: 100px;
+}
+
+.main .leftintro h2 {
+  font-size: 78px;
+  margin-bottom: 30px;
+}
+
+.main .leftintro p {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.main .leftintro .special {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+}
+
+.main .leftintro .special button {
+  font-size: 30px;
+  border-radius: 30px;
+  padding: 30px 60px;
+  cursor: pointer;
+}
+
+.main .leftintro .special .specialist {
+  background-color: #ff6900;
+  border: none;
+  color: white;
+}
+
+.main .leftintro .special .specialist:hover {
+  background-color: white;
+  border: #ff6900 3px solid;
+  color: #ff6900;
+}
+
+.main .leftintro .special .brief {
+  background-color: white;
+  color: #ff6900;
+  border: #ff6900 solid 3px;
+}
+
+.main .leftintro .special .brief:hover {
+  background-color: #ff6900;
+  border: none;
+  color: white;
+}
+
+.main .article {
+  background-color: #525061;
+  width: 100%;
+  padding: 70px;
+}
+
+.main .article .dash {
+  background-color: #bcbac8;
+  width: 200px;
+  height: 10px;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.main .article .container {
+  padding: 50px 200px;
+}
+
+.main .article .container .learn {
+  text-align: center;
+  font-size: 65px;
+  color: white;
+  margin: 40px 0;
+  font-weight: bolder;
+}
+
+.main .article .container video {
+  background-color: black;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 700px;
+}
+
+.main .article .far {
+  text-align: center;
+  padding: 0 200px;
+  color: #bcbac8;
+}
+
+.main .article .far .reach {
+  color: #ff6900;
+  font-size: 65px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+.main .article .far .native {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.main .article .far button {
+  background-color: #bcbac8;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  width: 400px;
+  font-size: 40px;
+  margin-bottom: 60px;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.main .article .fintech {
+  width: 100%;
+  margin-bottom: 60px;
+  padding: 30px 80px;
+  text-align: center;
+  color: white;
+}
+
+.main .article .fintech h3 {
+  font-size: 70px;
+  padding: 30px;
+}
+
+.main .article .fintech p {
+  font-size: 40px;
+  padding: 30px;
+}
+
+.main .article .fintech .payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .article .fintech .payment div {
+  width: 23%;
+  padding: 50px;
+  border: #bcbac8 solid 1px;
+  border-radius: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+}
+
+.main .article .fintech .payment div p {
+  padding: 30px;
+}
+
+.main .article .fintech .payment div:hover {
+  background-color: white;
+  color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main .article .artContainer {
+  padding: 30px 75px;
+}
+
+.main .article .artContainer .art {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1.3rem;
+  -ms-grid-columns: 32% 32% 32%;
+      grid-template-columns: 32% 32% 32%;
+  max-width: 100%;
+  padding: 30px 70px;
+  line-height: 3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.main .article .artContainer .art .contain {
+  width: 100%;
+  min-height: 60vh;
+  border: #bcbac8 1px solid;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.main .article .artContainer .art .contain img {
+  width: inherit;
+  border-radius: 60px 60px 0 0;
+}
+
+.main .article .artContainer .art .contain .text {
+  padding: 30px;
+  color: #bcbac8;
+  font-size: 25px;
+  line-height: 2.5rem;
+}
+
+.main .article .artContainer .art .contain .text .head {
+  font-weight: bolder;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.main .article .artContainer .art .contain .text .learnMore {
+  padding: 30px 60px;
+  border: none;
+  font-size: 30px;
+  border-radius: 15px;
+  background-color: #bcbac8;
+  color: black;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.main .article .artContainer .art .contain:hover {
+  background-color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main .article .artContainer .art .contain:hover .text {
+  color: black;
+}
+
+.main .article .artContainer .art .contain:hover .text .learnMore {
+  background-color: #ff6900;
+  color: white;
+}
+
+.main .article .artContainer .scorecard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 60px;
+  margin-top: 30px;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.main .article .artContainer .scorecard .score {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40%;
+  background-color: #fcb900;
+  border-radius: 70px 0 0 70px;
+}
+
+.main .article .artContainer .scorecard .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  background-color: #ff6900;
+  border-radius: 0 70px 70px 0;
+}
+
+@media only screen and (max-width: 2150px) {
+  .main .leftintro {
+    width: 60%;
+    top: -1%;
+    padding: 50px;
+  }
+  .main .leftintro h2 {
+    font-size: 60px;
+  }
+  .main .leftintro p {
+    font-size: 35px;
+  }
+  .main .leftintro .special {
+    width: 70%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .leftintro .special button {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .main .article .fintech {
+    padding: 20px 10px;
+  }
+  .main .article .fintech .payment div {
+    width: 24%;
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 1713px) {
+  .main .article .container {
+    padding: 20px 100px;
+  }
+  .main .article .container .learn {
+    font-size: 40px;
+  }
+  .main .article .container video {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+  }
+  .main .article .far .reach {
+    font-size: 45px;
+  }
+  .main .article .far .native {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .main .article .far button {
+    font-size: 30px;
+  }
+  .main .article .fintech {
+    padding: 30px 70px;
+  }
+  .main .article .fintech h3 {
+    font-size: 40px;
+  }
+  .main .article .fintech p {
+    font-size: 30px;
+  }
+  .main .article .fintech .payment div {
+    width: 24%;
+    padding: 50px;
+  }
+  .main .article .fintech .payment div img {
+    width: 130px;
+    height: 130px;
+  }
+  .main .article .fintech .payment div p {
+    padding: 30px;
+    font-size: 25px;
+  }
+  .main .article .fintech .payment div:hover {
+    background-color: white;
+    color: black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .main .article .artContainer {
+    padding: 20px 40px;
+  }
+  .main .article .artContainer .art {
+    -ms-grid-columns: 33% 33% 33%;
+        grid-template-columns: 33% 33% 33%;
+  }
+  .main .article .artContainer .art .contain .text .head {
+    font-size: 45px;
+  }
+  .main .article .artContainer .art .contain .text .learnMore {
+    font-size: 20px;
+  }
+  .main .article .artContainer .scorecard {
+    font-size: 30px;
+  }
+  .main .article .artContainer .scorecard .score {
+    height: 100px;
+  }
+  .main .article .artContainer .scorecard .time {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 1434px) {
+  .main .article {
+    padding: 10px 30px;
+  }
+  .main .article .container {
+    padding: 20px 10px;
+  }
+  .main .article .fintech {
+    padding: 20px 50px;
+  }
+  .main .article .fintech .payment {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 45% 45%;
+        grid-template-columns: 45% 45%;
+  }
+  .main .article .fintech .payment div {
+    width: 100%;
+    grid-gap: 1rem;
+    margin-bottom: 20px;
+  }
+  .main .article .artContainer {
+    padding: 20px 10px;
+  }
+  .main .article .artContainer .art {
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+  }
+  .main .article .artContainer .art .contain {
+    grid-gap: 1.3rem;
+    width: 100%;
+  }
+  .main .article .artContainer .scorecard {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 998px) {
+  .main .intro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .intro .background {
+    width: 100%;
+  }
+  .main .intro .people {
+    position: static;
+    width: 100%;
+  }
+  .main .leftintro {
+    width: 100%;
+    top: -1%;
+  }
+  .main .leftintro h2 {
+    font-size: 35px;
+  }
+  .main .leftintro p {
+    font-size: 20px;
+  }
+  .main .article {
+    padding: 10px;
+  }
+  .main .article .container {
+    padding: 30px 10px;
+  }
+  .main .article .far {
+    padding: 0 60px;
+  }
+  .main .article .fintech .payment {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .main .article .fintech .payment div {
+    font-size: 20px;
+    padding: 40px;
+  }
+  .main .article .fintech .payment div img {
+    width: 200px;
+    height: 200px;
+  }
+  .main .article .artContainer .art {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .main .article .artContainer .scorecard {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .main .article .artContainer .scorecard .score {
+    width: 100%;
+    border-radius: 0;
+  }
+  .main .article .artContainer .scorecard .time {
+    border-radius: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .main .leftintro {
+    top: -1%;
+    padding: 20px;
+  }
+  .main .leftintro h2 {
+    font-size: 25px;
+  }
+  .main .leftintro p {
+    font-size: 20px;
+  }
+  .main .leftintro .special {
+    width: 100%;
+  }
+  .main .leftintro .special button {
+    font-size: 20px;
+  }
+  .main .leftintro .special .specialist {
+    width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .main .leftintro .special .specialist:hover {
+    border: #ff6900 3px solid;
+  }
+  .main .leftintro .special .brief {
+    border: #ff6900 3px solid;
+  }
+  .main .article .fintech {
+    padding: 10px 20px;
+  }
+  .main .article .fintech .payment div {
+    padding: 10px;
+  }
+  .main .article .far .reach {
+    font-size: 30px;
+  }
+  .main .article .far button {
+    width: 250px;
+    font-size: 20px;
+  }
+  .main .article .artContainer {
+    padding: 0px;
+  }
+  .main .article .artContainer .art {
+    padding: 10px;
+  }
+  .main .article .artContainer .art .contain .text {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .main .article .artContainer .art .contain .text .learnMore {
+    padding: 20px 30px;
+  }
+}
+/*# sourceMappingURL=Main.css.map */

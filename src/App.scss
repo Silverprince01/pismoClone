@@ -1,0 +1,161 @@
+.App {
+  position: relative;
+  .private {
+    position: fixed;
+    top: 80%;
+    left: 2%;
+    width: 100px;
+    height: 100px;
+    background-color: #ff6900;
+    border-radius: 50px;
+    z-index: 7;
+    cursor: pointer;
+  }
+  .cookies {
+    color: white;
+    top: 10%;
+    position: fixed;
+    left: 25%;
+    z-index: 6;
+    background-color: #525061;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    font-size: 25px;
+    box-shadow: 100px 100px 800px 1000px rgba(0, 0, 0, 0.2),
+    100px 106px 120px 1000px rgba(0, 0, 0, 0.19);
+    .cancel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+      }
+    }
+    .privacySet {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      p {
+        margin-bottom: 20px;
+      }
+    }
+    .set {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        cursor: pointer;
+        p {
+          border-bottom: #bcbac8 4px solid;
+          margin-bottom: 5px;
+          width: 100%;
+          text-align: center;
+          &:hover {
+            border-bottom: solid white 4px;
+          }
+        }
+      }
+    }
+    .seetings {
+      .permission {
+        margin-bottom: 30px;
+      }
+      .nec {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 3px solid #bcbac8;
+        margin-bottom: 10px;
+        p {
+          margin-bottom: 10px;
+        }
+      }
+      .switch {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        .coo {
+          width: 70%;
+        }
+      }
+    }
+    .cook {
+      margin-bottom: 40px;
+    }
+    .cookPolicy {
+      overflow-y: scroll;
+      height: 50vh;
+      p {
+        margin-bottom: 30px;
+      }
+      h3 {
+        margin-bottom: 20px;
+      }
+    }
+    .accept {
+      display: flex;
+      flex-direction: column;
+      button {
+        margin-bottom: 20px;
+        width: 100%;
+        background-color: #ff6900;
+        color: #bcbac8;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        height: 60px;
+        font-size: 25px;
+        color: white;
+        cursor: pointer;
+      }
+      div {
+        display: flex;
+        justify-content: space-between;
+        button {
+          width: 49%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1230px) {
+  .App{
+    .cookies{
+      width: 70%;
+      left: 15%;
+    }
+  }
+
+}
+@media only screen and (max-width: 834px) {
+  .App{
+    .cookies{
+      width: 90%;
+      left: 5%;
+    }
+  }
+
+}
+@media only screen and (max-width: 998px) {
+  .App{
+    .private{
+      width: 70px;
+      height: 70px;
+    }
+  }
+}
+@media only screen and (max-width: 542px) {
+  .App{
+    .cookies{
+      width: 100%;
+      left: 0;
+    }
+  }
+
+}
