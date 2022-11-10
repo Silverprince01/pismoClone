@@ -112,6 +112,9 @@
   .section .lowerSection {
     padding: 10px 0px;
   }
+  .section .lowerSection .lowerText {
+    font-size: 35px;
+  }
   .section .lowerSection .container {
     padding: 10px;
   }
