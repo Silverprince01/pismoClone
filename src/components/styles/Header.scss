@@ -107,6 +107,7 @@
 }
 @media only screen and (max-width: 888px) {
   .header {
+    z-index: 12;
     nav {
       justify-content: space-between;
       padding: 15px;
@@ -138,8 +139,8 @@
       }
       ul {
         position: absolute;
-        left: -200%;
-        top: 48px;
+        top: -2000%;
+        right: 0;
         color: white;
         flex-direction: column;
         transition: 0.3s;
@@ -163,7 +164,6 @@
           margin-bottom: 40px;
           &:hover {
             .lmao {
-              z-index: 10;
               width: 300px;
               left: 0;
               position: relative;
@@ -179,7 +179,7 @@
         }
       }
       ul.active {
-        left: 0;
+        top: 60%;
       }
     }
   }

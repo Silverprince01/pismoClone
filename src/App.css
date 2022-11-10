@@ -204,8 +204,15 @@
 
 @media only screen and (max-width: 542px) {
   .App .cookies {
+    z-index: 50;
     width: 100%;
     left: 0;
+    font-size: 18px;
+  }
+  .App .cookies .accept button {
+    font-size: 18px;
+    padding: 0px;
+    height: 40px;
   }
 }
 /*# sourceMappingURL=App.css.map */

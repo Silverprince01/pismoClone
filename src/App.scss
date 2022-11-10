@@ -23,7 +23,7 @@
     padding: 30px;
     font-size: 25px;
     box-shadow: 100px 100px 800px 1000px rgba(0, 0, 0, 0.2),
-    100px 106px 120px 1000px rgba(0, 0, 0, 0.19);
+      100px 106px 120px 1000px rgba(0, 0, 0, 0.19);
     .cancel {
       display: flex;
       justify-content: space-between;
@@ -125,37 +125,43 @@
   }
 }
 @media only screen and (max-width: 1230px) {
-  .App{
-    .cookies{
+  .App {
+    .cookies {
       width: 70%;
       left: 15%;
     }
   }
-
 }
 @media only screen and (max-width: 834px) {
-  .App{
-    .cookies{
+  .App {
+    .cookies {
       width: 90%;
       left: 5%;
     }
   }
-
 }
 @media only screen and (max-width: 998px) {
-  .App{
-    .private{
+  .App {
+    .private {
       width: 70px;
       height: 70px;
     }
   }
 }
 @media only screen and (max-width: 542px) {
-  .App{
-    .cookies{
+  .App {
+    .cookies {
+      z-index: 50;
       width: 100%;
       left: 0;
+      font-size: 18px;
+      .accept {
+        button {
+          font-size: 18px;
+          padding: 0px;
+          height: 40px;
+        }
+      }
     }
   }
-
 }

@@ -122,6 +122,9 @@
 }
 
 @media only screen and (max-width: 888px) {
+  .header {
+    z-index: 12;
+  }
   .header nav {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -158,8 +161,8 @@
   }
   .header nav ul {
     position: absolute;
-    left: -200%;
-    top: 48px;
+    top: -2000%;
+    right: 0;
     color: white;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -187,7 +190,6 @@
     border-bottom: none;
   }
   .header nav ul li:hover .lmao {
-    z-index: 10;
     width: 300px;
     left: 0;
     position: relative;
@@ -199,7 +201,7 @@
     padding: 20px;
   }
   .header nav ul.active {
-    left: 0;
+    top: 60%;
   }
 }
 /*# sourceMappingURL=Header.css.map */
