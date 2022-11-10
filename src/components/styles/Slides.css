@@ -13,6 +13,7 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 60px;
+  margin-bottom: 40px;
 }
 
 .slideContainer .container img {
