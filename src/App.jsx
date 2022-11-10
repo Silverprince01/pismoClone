@@ -59,7 +59,7 @@ const App = () => {
                   These cookies are required for good function ality of our
                   website and can't be switched off in our system.
                 </p>
-                <p>fjfh</p>
+                <p>Disabled</p>
               </div>
             </div>
           )}

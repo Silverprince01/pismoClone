@@ -6,7 +6,12 @@
     width: 200px;
     height: 10px;
     border-radius: 5px;
-    margin: auto;
+    margin: 40px auto;
+  }
+  .custom{
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
   }
   .lowerSection {
     width: 100%;
@@ -64,11 +69,19 @@
 @media only screen and (max-width: 1410px) {
   .section {
     padding: 20px;
+    .custom{
+      font-size: 40px;
+    }
   }
 }
 @media only screen and (max-width: 1210px) {
   .section {
     padding: 10px;
+    .custom{
+      padding: 20px;
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
     .lowerSection {
       padding: 10px 20px;
     }
