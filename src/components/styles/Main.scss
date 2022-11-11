@@ -443,14 +443,32 @@
         padding: 0 60px;
       }
       .fintech {
+        padding: 10px 0;
+        grid-gap: 0;
+        p{
+          font-size: 20px;
+        }
         .payment {
-          grid-template-columns: 100%;
+          // display: block;
+          // grid-template-columns: 50% 50;
+          padding: 10px 0;
+          justify-content: center;
+          align-content: center;
+          grid-gap: 1rem;
+          width: 100%;
           div {
             font-size: 20px;
-            padding: 40px;
+            padding: 40px 20px 20px 20px;
+            width: 100%;
+            margin-bottom: 0;
+            p{
+              font-size: 18px;
+              padding: 10px;
+            }
+            // height: 30vh;
             img {
-              width: 200px;
-              height: 200px;
+              width: 80px;
+              height: 80px;
             }
           }
         }
@@ -477,6 +495,12 @@
 }
 @media only screen and (max-width: 667px) {
   .main {
+    // .intro{
+    //   height: 120vh;
+    // }
+    .people{
+      display: none;
+    }
     .leftintro {
       top: -1%;
       padding: 20px;
@@ -530,8 +554,10 @@
         }
         padding: 10px 5px;
         .payment {
+          display: block;
           div {
-            padding: 10px;
+            padding: 30px;
+            margin-bottom: 20px;
           }
         }
       }

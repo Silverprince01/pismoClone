@@ -523,17 +523,36 @@
   .main .article .far {
     padding: 0 60px;
   }
+  .main .article .fintech {
+    padding: 10px 0;
+    grid-gap: 0;
+  }
+  .main .article .fintech p {
+    font-size: 20px;
+  }
   .main .article .fintech .payment {
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
+    padding: 10px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    grid-gap: 1rem;
+    width: 100%;
   }
   .main .article .fintech .payment div {
     font-size: 20px;
-    padding: 40px;
+    padding: 40px 20px 20px 20px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .main .article .fintech .payment div p {
+    font-size: 18px;
+    padding: 10px;
   }
   .main .article .fintech .payment div img {
-    width: 200px;
-    height: 200px;
+    width: 80px;
+    height: 80px;
   }
   .main .article .artContainer .art {
     -ms-grid-columns: 100%;
@@ -557,6 +576,9 @@
 }
 
 @media only screen and (max-width: 667px) {
+  .main .people {
+    display: none;
+  }
   .main .leftintro {
     top: -1%;
     padding: 20px;
@@ -608,8 +630,12 @@
   .main .article .fintech p {
     padding: 10px 5px;
   }
+  .main .article .fintech .payment {
+    display: block;
+  }
   .main .article .fintech .payment div {
-    padding: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
   }
   .main .article .far .reach {
     font-size: 30px;
