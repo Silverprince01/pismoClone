@@ -576,8 +576,8 @@
 }
 
 @media only screen and (max-width: 667px) {
-  .main .people {
-    display: none;
+  .main .intro {
+    height: 120vh;
   }
   .main .leftintro {
     top: -1%;

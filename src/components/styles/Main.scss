@@ -495,12 +495,12 @@
 }
 @media only screen and (max-width: 667px) {
   .main {
-    // .intro{
-    //   height: 120vh;
-    // }
-    .people{
-      display: none;
+    .intro{
+      height: 120vh;
     }
+    // .people{
+    //   display: none;
+    // }
     .leftintro {
       top: -1%;
       padding: 20px;
